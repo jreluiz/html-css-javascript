@@ -1,0 +1,9 @@
+# Ignorar arquivos e pastas comuns
+node_modules/
+.DS_Store
+*.log
+img/*.png
+img/*.jpg
+img/*.jpeg
+img/*.gif
+.env

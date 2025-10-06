@@ -1,0 +1,41 @@
+body {
+    background: #e3e3e3;
+    font-family: Arial, sans-serif;
+}
+h1 {
+    text-align: center;
+    color: #222;
+}
+.videos {
+    text-align: center;
+    margin: 30px 0;
+}
+.videos img {
+    width: 180px;
+    margin: 10px;
+    border: 2px solid #222;
+    border-radius: 8px;
+}
+.video-player {
+    text-align: center;
+    margin-top: 30px;
+}
+.links {
+    margin-top: 20px;
+}
+.link-btn {
+    display: inline-block;
+    background: #1976d2;
+    color: #fff;
+    padding: 8px 18px;
+    border-radius: 5px;
+    text-decoration: none;
+    margin: 5px;
+}
+.voltar-btn {
+    display: inline-block;
+    margin: 5px;
+    color: #1976d2;
+    text-decoration: none;
+    font-weight: bold;
+}
