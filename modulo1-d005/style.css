@@ -1,0 +1,52 @@
+body {
+  text-decoration: none;
+  color: #fff;
+  background: #0077b5;
+  padding: 10px 24px;
+  border-radius: 6px;
+  font-weight: 500;
+  align-items: center;
+  gap: 8px;
+}
+
+.social-list a.github {
+  background: #333;
+}
+.social-list a.linkedin {
+  background: #0077b5;
+}
+.social-list a.instagram {
+  background: #e1306c;
+}
+.social-list a.youtube {
+  background: #ff0000;
+}
+.social-list a.facebook {
+  background: #1877f3;
+}
+.social-list a.twitter {
+  background: #1da1f2;
+}
+
+.social-list a:hover {
+  opacity: 0.85;
+}
+
+.imagem_perfil {
+  margin-bottom: 16px;
+  border-radius: 50%;
+  width: 150px;
+  height: 150px;
+  object-fit: cover;
+  display: block;
+}
+
+@media (max-width: 500px) {
+  .container {
+    padding: 16px 8px;
+  }
+  .profile-img {
+    width: 120px;
+    height: 120px;
+  }
+}
