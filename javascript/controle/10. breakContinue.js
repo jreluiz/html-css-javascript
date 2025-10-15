@@ -14,6 +14,7 @@ for (y in nums) {
     console.log(`${y} = ${nums[y]}`)
 }
 
+// rótulo -> não use
 externo:
 for (a in nums) {
     for (b in nums) {
