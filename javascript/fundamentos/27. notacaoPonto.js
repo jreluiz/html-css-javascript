@@ -1,9 +1,9 @@
-console.log(Math.ceil(6.1))
+// console.log(Math.ceil(7.9))
 
-const obj1 = {}
-obj1.nome = 'Bola'
+// const obj1 = {}
+// // obj1.nome = 'Bola'
 // obj1['nome'] = 'Bola2'
-console.log(obj1.nome)
+// console.log(obj1.nome)
 
 function Obj(nome) {
     this.nome = nome

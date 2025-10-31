@@ -1,8 +1,11 @@
 const nome = 'Rebeca'
+nomeMaiusculo = nome.toUpperCase()
+console.log(nomeMaiusculo)
+const sobrenome = 'Silva'
 const concatenacao = 'Olá ' + nome + '!'
 const template = `
     Olá
-    ${nome}!`
+    ${nome} ${sobrenome}!`
 console.log(concatenacao, template)
 
 // expressoes...

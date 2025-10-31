@@ -9,7 +9,8 @@ const pessoa = {
     }
 }
 
-const { nome, idade } = pessoa
+
+let { nome, idade } = pessoa
 console.log(nome, idade)
 
 const { nome: n, idade: i } = pessoa
